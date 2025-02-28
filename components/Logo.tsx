@@ -13,6 +13,7 @@ export default () => (
         priority
         data-test-id="logo"
       />
+      &nbsp;🇨🇷
     </Link>
   </div>
 );
