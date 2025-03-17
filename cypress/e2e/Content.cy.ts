@@ -1,7 +1,6 @@
 describe("Content", () => {
   it("should contain elements", () => {
     cy.visit("/");
-    cy.get('[data-test-id="close-modal"]').click();
     cy.wait(300);
 
     cy.contains("Hi, my name is", { matchCase: false });

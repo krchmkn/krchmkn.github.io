@@ -3,7 +3,6 @@ import links from "@/constants/links";
 describe("Menu", () => {
   beforeEach(() => {
     cy.visit("/");
-    cy.get('[data-test-id="close-modal"]').click();
     cy.wait(300);
   });
 

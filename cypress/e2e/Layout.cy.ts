@@ -1,9 +1,6 @@
-import statement from "@/constants/statement";
-
 describe("Layout", () => {
   it("should contain elements", () => {
     cy.visit("/");
-    cy.get('[data-test-id="close-modal"]').click();
     cy.wait(300);
 
     cy.get('[data-test-id="layout"]').should("exist").and("be.visible");
